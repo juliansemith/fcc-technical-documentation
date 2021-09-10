@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FCC Technical Documentation Page</title>
+</head>
+<body>
+
+    <nav id="navbar">
+        <header>JS Documentation</header>
+        <ul>
+            <li><a href="#HTML" class="nav-link">HTML</a></li>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#Javascript_and_Java" class="nav-link">Javascript and Java</a></li>
+            <li><a href="#Hello_world" class="nav-link">Hello World</a></li>
+            <li><a href="#Variabels" class="nav-link">Variabels</a></li>
+            <li><a href="#Variables_Scope" class="nav-link">Variables Scope</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="HTML">
+            <header>HTML</header>
+            <ul>
+                <li>HTML is the standard markup language for creating Web pages.</li>
+                <li>HTML stands for Hyper Text Markup Language.</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+            </ul>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et architecto tenetur, facere eveniet quas ea deleniti temporibus! Esse, ipsam veritatis.</p>
+        </section>
+
+
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos quibusdam praesentium reiciendis, doloremque et, repellendus neque beatae dolorem nam eius atque! Eius cumque ex quae ad voluptatem sint maiores nemo error autem quis, sed nisi minima porro molestias. Nisi dolore blanditiis recusandae atque voluptatibus commodi perspiciatis, exercitationem repellat aliquam sed tempore autem ipsam sit vel magni maxime nostrum fuga?</p>
+        </section>
+
+        <section class="main-section" id="Javascript_and_Java">
+            <header>JavaScript and Java</header>
+            <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
+
+            <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
+
+            <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
+        </section>
+        
+        <section class="main-section" id="Hello_world">
+            <header>Hello world</header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa optio placeat voluptatem numquam? Facere corrupti minima et eligendi veniam deleniti commodi doloribus exercitationem autem explicabo maxime porro voluptatem assumenda ducimus beatae consequatur, impedit animi, nam rerum dolorem neque rem veritatis mollitia. Reprehenderit velit, alias omnis molestias cumque tempore a assumenda voluptatem quibusdam cupiditate iusto blanditiis excepturi, nihil quis. Odit, incidunt vitae inventore ratione culpa nihil dignissimos repellat voluptatum doloribus cupiditate!</p>
+            <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+            <code>
+            <pre>
+            function greetMe(yourName)
+            { 
+                alert("Hello " + yourName); 
+            }
+            greetMe("World");
+               </pre>
+              </code>
+            </p>
+        </section>
+        <section class="main-section" id="Variabels">
+            <header>Variabels</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, reiciendis quidem veritatis consequuntur laborum aspernatur nemo non molestias veniam soluta rerum deserunt qui quod voluptates quasi voluptatum sint saepe aperiam amet et, repellat impedit sapiente. Maxime quia pariatur quisquam at dicta officiis asperiores debitis voluptatibus expedita aperiam. Quis, molestiae in?</p>
+            <p>With the keyword var. For example,</p>
+            <code><pre>var x = 42.</pre></code>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore sit enim animi quidem rerum dolorem, inventore provident aperiam minus facere fuga nisi labore sunt a distinctio nostrum totam cumque!</p>
+            <p>By simply assigning it a value. For example,</p>
+            <code><pre>x = 42.</pre></code>
+
+            <p>With the keyword let. For example,</p>
+            <code><pre>let y = 13.</pre></code>
+        </section>
+        <section class="main-section" id="Variables_Scope">
+            <header>Variables Scope</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, eaque commodi. Repudiandae a quidem debitis et, animi consequatur quibusdam, atque incidunt exercitationem velit aut vitae, sapiente quis laudantium consequuntur? Nisi, repellat harum nam magni illum mollitia quod. Unde corporis, fugiat deleniti consectetur voluptatem asperiores omnis sint iste doloremque aliquid provident placeat enim blanditiis reprehenderit eveniet, assumenda, rerum nesciunt ea quaerat eius. Iusto consequuntur laboriosam, repellendus tempore sit quos. Iure sint, quo a beatae in perferendis autem iusto, similique, mollitia velit omnis rerum nisi pariatur ea repellat voluptas hic quod odit. Ad cumque suscipit tenetur corrupti doloribus perspiciatis ratione! Molestiae, eum.</p>
+            <p>For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
+            <code><pre>if (true) { var x = 5; } console.log(x); // 5</pre></code>
+            
+            <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
+            <code><pre>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</pre></code>
+        </section>
+    </main>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>
